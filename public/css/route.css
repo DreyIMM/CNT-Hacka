@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+}
+
+body, .container-fluid{
+    height: 100%;
+    background-image: linear-gradient(120deg, #6d92cec7 0%, #c2e9fb 100%);
+}
+
+#mapid{
+    height: 462px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.footer-route{
+   height: 19%;
+}
+
+.container-button{
+    background:#5f81ff;
+    /* border-radius: 9px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 38px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-button:hover{
+    background-color: red;
+}
+
+.footer-route > a:hover{
+    text-decoration: initial;
+    color: #ffffff;
+}
+
+
+.info-route{
+    /* border-radius: 9px; */
+    background-image: linear-gradient(120deg, #6d92cec7 0%, #c2e9fb 100%);
+}
+
+
+.info-route p{
+    font-family: 'Roboto', sans-serif;
+}
+
